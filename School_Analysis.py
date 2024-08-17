@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 # import CSV file :-
 df = pd.read_csv('Namuna9_2024-25_Final.csv').set_index('मालमत्ता_क्रमांक')
