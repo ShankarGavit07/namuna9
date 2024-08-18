@@ -6,7 +6,7 @@ import numpy as np
 df = pd.read_csv('Namuna9_2024-25_Final.csv').set_index('मालमत्ता_क्रमांक')
 
 # set page configuration:-
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide', page_title='gpKamod')
 
 # define columns
 col,col0 = st.columns(2)
